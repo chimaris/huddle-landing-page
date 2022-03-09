@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    margin : 0 10px !important;
+    padding : 0 10px !important;
+    font-size: 1.1250em;
+}
+
+header {
+    background-image: url('/images/bg-hero-mobile.svg');
+    background-color: aqua;
+    margin-top: 0 !important;
+
+}
+
+footer, header {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h3 {
+    margin: 15px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    margin: 15px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav .logo {
+    width: 30%;
+    height: 17px;
+}
+
+.tryItButton {
+    border-radius: 20px;
+    padding: 3px 20px;
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.getStartedBtn {
+    background-color: hsl(322, 100%, 66%);
+    color : hsl(193, 100%, 96%);
+    border-radius: 20px;
+    padding: 20px 30px;
+    border-color: hsl(322, 100%, 66%);
+    width: 250px;
+    margin: 20px 0;
+
+}
+
+header.header .info-section {
+    text-align: center;
+    margin: 50px 20px;
+}
+
+.info-section h1, .info-section p, .info-section img, .info-section button  {
+    margin: 10px 0;
+}
+
+main.card, main.readyToBuild-section {
+    text-align: center;
+    width: 80%;
+    margin: 25px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px hsl(208, 11%, 55%);
+
+    /* background-color: ; */
+}
+
+main.readyToBuild-section {
+    background-color: #fff;
+    /* position: relative; */
+    /* z-index: 100; */
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%) ;
+    color: hsl(193, 100%, 96%);
+    padding: 100px 10px 10px 20px;
+    line-height: 2;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 80px;
+    z-index: -100;
+    margin-bottom: 0;
+
+
+
+}
+
+ul {
+    margin: 10px 0;
+    list-style: none;
+}
+
+footer img.logo {
+    width: 35%;
+    height: 20px;
+}
+table {
+    border-spacing: 10px 0;
+}
+td {
+    padding: 10px 10px 10px 0;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: hsl(193, 100%, 96%);
+}
+
+
+.social-icons ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    margin: auto;
+}
+
+footer p {
+    text-align: center;
+    font-size: 10px;
+}
+
+@media  screen and (max-width:600px) {
+    
+}
+
+@media  screen and (min-width:601px) {
+
+    header.header .info-section img {
+        width: 50%;
+    }
+    .navBar, header.header .info-section, footer .footer-wrapper {
+        width: 80%;
+        margin: 50px auto;
+    }
+
+    nav .logo {
+        width: 20%;
+        height: 30px;
+    }
+    header.header .info-section {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        /* margin: 100px auto; */
+    }
+
+    .info-section > .info {
+        width: 40%;
+        padding-top: 60px;
+    }
+
+    .info-section > .info h1 {
+        font-size: 2rem;
+    }
+    main.card img {
+        width: 35%;
+    }
+    main.card {
+        display: flex;
+        justify-content: space-between;
+        /* height: 350px; */
+        padding: 20px;
+        left: 1.5;
+    }
+
+    main.card .card-text {
+        width: 45%;
+        text-align: left;
+        padding: 60px 30px ;
+
+    }
+
+    main.readyToBuild-section {
+        width: 50%;
+        height: 200px;
+    }
+
+    footer .footer-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contactUs {
+        width: 350px;
+    }
+
+    footer p {
+        text-align: right;
+        width: 90%;
+    }
+}
+
