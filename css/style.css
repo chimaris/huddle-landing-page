@@ -16,7 +16,7 @@ body {
 
 header {
     background-image: url('../images/bg-hero-mobile.svg');
-    /* background-color: aqua; */
+    background-color: rgb(112, 240, 240);
 
 }
 
@@ -52,8 +52,8 @@ nav .logo {
 .tryItButton {
     border-radius: 20px;
     padding: 5px 30px;
-    border-color: hsl(193, 100%, 96%);;
-    background-color: hsl(193, 100%, 96%);;
+    border-color: hsl(193, 100%, 96%);
+    background-color: #fff;
 }
 
 .getStartedBtn {
@@ -64,7 +64,10 @@ nav .logo {
     border-color: hsl(322, 100%, 66%);
     width: 250px;
     margin: 20px 0;
+}
 
+.getStartedBtn:hover {
+    background-color: hsl(322, 84%, 71%);
 }
 
 header.header .info-section {
@@ -78,7 +81,7 @@ main.card, main.readyToBuild-section {
     margin: 25px auto;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px hsl(208, 11%, 55%);
+    box-shadow: 1px 1px 1px 1px hsl(208, 11%, 55%);
 }
 
 main.readyToBuild-section {
